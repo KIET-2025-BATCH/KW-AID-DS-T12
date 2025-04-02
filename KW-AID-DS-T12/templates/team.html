@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - Product Category Classifier</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <i class="fas fa-tags me-2"></i>
+                ProductClassifier
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">
+                            <i class="fas fa-home me-1"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">
+                            <i class="fas fa-info-circle me-1"></i> About Project
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('team') }}">
+                            <i class="fas fa-users me-1"></i> Team Details
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Team Details Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2 class="display-4">Our Team</h2>
+                <div class="divider mx-auto"></div>
+                <p class="lead text-muted">The minds behind this classification project</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <!-- Team Member 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/jaya1.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>R. Jayasri Devi</h4>
+                            <p class="text-muted">21JN1A45C5</p>
+                            <div class="social-links">
+                                <a href="https://github.com/Reddy-jayasri" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/jayasri-devi/" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:jayasridevireddy@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/aparna.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>G. Lakshmi Aparna</h4>
+                            <p class="text-muted">21JN1A45C1</p>
+                            <div class="social-links">
+                                <a href="https://github.com/GLakshmiaparna
+                                " class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/lakshmi-aparna-96a3b0227" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:glakshmiaparnasd23@gmail.com
+                                " class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/anjali.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>K. Anjali Devi</h4>
+                            <p class="text-muted">21JN1A45G1</p>
+                            <div class="social-links">
+                                <a href="https://github.com/anjalikanigiri
+                                " class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/anjali-devi-kanigiri-8b534322b" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:kanigiriraju969@gmail.com
+                                " class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/satya.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>G. Satya</h4>
+                            <p class="text-muted">21JN1A4588</p>
+                            <div class="social-links">
+                                <a href="https://github.com/Satya6623
+                                " class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/satya-gorlli-260760285 " class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:g.satya296@gmail.com
+                                " class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 5 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/ramya.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>K. Veera Ramya</h4>
+                            <p class="text-muted">21J1AA45G2</p>
+                            <div class="social-links">
+                                <a href="https://github.com/RamyaKV134
+                                " class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/veera-ramya-kamichetty-7aa16823b" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:ramyakamichetty134@gmail.com
+                                " class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 6 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-card h-100">
+                        <div class="team-img">
+                            <img src="{{ url_for('static', filename='images/moksha1.jpg') }}" alt="Team Member" onerror="this.src='/api/placeholder/400/300'">
+                        </div>
+                        <div class="team-info">
+                            <h4>T. Moksha Sai Visalakshi</h4>
+                            <p class="text-muted">22JN5A4504</p>
+                            <div class="social-links">
+                                <a href="https://github.com/mokshathotakura
+                                " class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/thotakura-moksha-sai-visalakshi-59682a25b" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="mailto:mokshathotakura@gmail.com
+                                " class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
