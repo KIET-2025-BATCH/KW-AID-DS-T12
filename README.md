@@ -116,7 +116,6 @@ git push origin feature-branch
 ## 📧 Contact
 For any inquiries, reach out via:
 - 📩 Email: jayasridevireddy@gmail.com
-- 🔗 LinkedIn: [jayasri-devi]([https://www.linkedin.com/in/jayasri-devi/])
 
 
 ### ⭐ If you found this project useful, give it a **star**! ⭐
