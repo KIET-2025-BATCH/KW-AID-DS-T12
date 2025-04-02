@@ -40,8 +40,8 @@ pip install -r requirements.txt
 
 ### Run the Project
 ```bash
-python train_model.py
-python categorize.py
+python save_model.py
+python app.py
 ```
 
 ---
