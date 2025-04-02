@@ -29,8 +29,8 @@ Ensure you have **Python 3.x** installed.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Product-Categorization.git
-cd Product-Categorization
+git clone https://github.com/KIET-2025-BATCH/KW-AID-DS-T12.git
+cd KW-AID-DS-T12
 ```
 
 ### Install Dependencies
